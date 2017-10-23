@@ -47,8 +47,9 @@ vnoremap <F1> <ESC>
 "remapping ; to :
 nnoremap ; :
 
-"Theme options
-let g:solarized_termcolors=256
+"Theme options"
+set t_Co=256
+"g:solarized_termcolors=16
 syntax enable
 set background=dark
 colorscheme solarized
